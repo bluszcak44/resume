@@ -1,0 +1,143 @@
+\documentclass[a4paper]{article}
+    \usepackage{fullpage}
+    \usepackage{amsmath}
+    \usepackage{amssymb}
+    \usepackage{textcomp}
+    \usepackage[utf8]{inputenc}
+    \usepackage[T1]{fontenc}
+    \usepackage[margin=1in]{geometry}
+    \usepackage[hidelinks]{hyperref}
+    \textheight=10in
+    \pagestyle{empty}
+    \raggedright
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor=blue
+}
+
+%------- DEFINITIONS -------%
+\newcommand{\lineunder} {
+    \vspace*{-8pt} \\
+    \hspace*{-18pt} \hrulefill \\
+}
+
+\newcommand{\header} [1] {
+    {\hspace*{-18pt}\vspace*{6pt} \textsc{#1}}
+    \vspace*{-6pt} \lineunder
+}
+
+\begin{document}
+\vspace*{-40pt}
+
+%------- PROFILE -------%
+\vspace*{-10pt}
+\begin{center}
+    {\Huge \scshape {Blaine Luszcak}}\\
+    Austin, TX $\cdot$ bluszcak44@outlook.com $\cdot$ 440-840-0128 \\
+    \url{linkedin.com/in/blaine-luszcak}
+\end{center}
+
+%------- EDUCATION -------%
+\header{Education}
+\textbf{University of Toledo - 2017} \hfill Toledo, OH \\
+BS Computer Science \& Engineering; \textit{GPA: 3.67} \hfill Aug 2013 - Dec 2017 \\
+\vspace{2mm}
+
+%------- OBJECTIVE -------%
+\header{Objective}
+As a Software Engineer with experience at an exit proven startup who has a passion for backend systems and an
+unmatched positive attitude, I look forward to my next opportunity to bring significant value through great software and
+collaboration.
+
+\vspace{2mm}
+
+%------- EXPERIENCE -------%
+\header{Experience}
+\vspace{1mm}
+
+\textbf{Digital Pharmacist} \hfill Austin, TX \\
+\textit{Software Engineer} \hfill Jan 2019 - Present \\
+\vspace{-3mm}
+\begin{itemize} \itemsep -0.25mm
+    \item Brought a new product to market, Inbox, that allows 2-way communication between pharmacists and patients
+        \begin{itemize} \itemsep -1mm
+            \item Co-designed and implemented the RESTful API in Python/Flask that has thousands of active users
+            and messages daily
+        \end{itemize}
+    \item Designed and implemented a NodeJS/Express/socketIO service to facilitate frontend notifications via pub/sub
+    \item Worked with mobile developers to design a flexible JSON call-to-action (CTA) payload to allow unique 
+    embeddable content into Inbox conversations
+    \item Wrote and advocated better Python unit testing patterns and easier ways to test multi-environment APIs through
+    Postman with JS pre-request scripts
+\end{itemize}
+\vspace{-2mm}
+
+\textit{Jr. Software Engineer} \hfill Jan 2018 - Jan 2019 \\
+\vspace{-3mm}
+\begin{itemize} \itemsep -0.25mm
+    \item Designed new backend endpoints for the Find a Pharmacy web app using Python/Flask that combined
+    business logic with Google Places API
+    \item Implemented a Python MySQL backup for the IP allow/block list that auto-reloads into Redis
+\end{itemize}
+\vspace{-2mm}
+
+\textit{Software Engineering Intern} \hfill May 2017 - Dec 2017 \\
+\vspace{-3mm}
+\begin{itemize} \itemsep -0.25mm
+    \item Integrated Mixpanel into existing web apps
+    \item Wrote Python scripts utilizing the Google Analytics API to better report on key business metrics
+    \item Helped implement Airflow as an ETL
+\end{itemize}
+\vspace{-2mm}
+
+\textbf{The Lubrizol Corporation} \hfill Wickliffe, OH \\
+\textit{Information Solutions Co-op - SAP BASIS/DBA} \hfill May 2016 - Aug 2016 \\
+\vspace{-2mm}
+\begin{itemize} \itemsep -1mm
+    \item Evaluated efficiency and provided insightful analysis of the company’s master data management for their
+     SAP applications/tools 
+\end{itemize}
+\vspace{-2mm}
+
+\textit{Information Solutions Co-op - Automation Manufacturing} \hfill Aug 2015 - Dec 2015 \\
+\vspace{-3mm}
+\begin{itemize} \itemsep -1mm
+    \item Built in-house web application with KnockoutJS/Bootstrap for chemical and process engineers to gain valuable
+    insight into their PI data and S88 batch process
+\end{itemize}
+\vspace{-2mm}
+
+\textit{Information Solutions Co-op - Public Web} \hfill Jan 2015 - May 2015 \\
+\vspace{-3mm}
+\begin{itemize} \itemsep -1mm
+    \item Managed, developed and completed restructure of two major parts for the corporate website using various
+     front end programming techniques (HTML/CSS/JavaScript)
+\end{itemize}
+\vspace{-2mm}
+
+%------- SKILLS -------%
+\header{Skills}
+\begin{tabular}{l l}
+    Programming: & Python, NodeJS, JavaScript \\
+    Frameworks: & Flask, FastAPI, Express \\ 
+    Infrastructure: & GCP, Terraform \\
+    Dev Tools: & Docker, Git/Github, \\
+    Systems: & MySQL/BigQuery, Redis, Pub/Sub \\
+    
+\end{tabular}
+\vspace{2mm}
+
+%------- ACCOMPLISHMENTS -------%
+\header{Accomplishments}
+\begin{tabular}{l l}
+    Recipient, The Digital Pharmacist Award: & Digital Pharmacist 2019 \\
+    Co-Founder, Glass City Community Solar: & Department of Energy 2017-2018 \\
+    President, \textbf{\textit{B}}uilding \textbf{\textit{O}}hio's \textbf{\textit{S}}ustainable
+      \textbf{\textit{E}}nergy \textbf{\textit{F}}uture: & University of Toledo  2017 \\
+    Vice-President, Solar Team Lead, Member (BOSEF): & University of Toeldo 2014-2016 \\
+    Member, Jesup Scott Honors College (JSHC): & University of Toeldo 2013-2017 \\
+\end{tabular}
+
+%------- END -------%
+\end{document}
